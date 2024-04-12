@@ -1,0 +1,398 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f4f5f7;
+}
+.header__container {
+  max-width: 1440px;
+  /* border: 2px black solid; */
+  margin: 0 auto;
+  display: flex;
+  height: 50px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  background-color: #c4c4c4;
+}
+.header__nav {
+  position: absolute;
+  top: 14px;
+  right: 143px;
+  display: flex;
+}
+.link {
+  color: #000000;
+  text-decoration: none;
+}
+.link_underline {
+  text-decoration: underline;
+}
+.header__slash {
+  margin: 0 2px;
+}
+.header__heart-img {
+  margin-left: 15px;
+  width: 15px;
+  height: 15px;
+  background-image: url("./img/heart.png");
+  background-repeat: no-repeat;
+  margin-top: 2px;
+  margin-right: 21px;
+}
+.header__bag-img {
+  margin-right: 4px;
+}
+.link {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+.title {
+  font-family: "Modern No. 20";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 51px;
+}
+.top__title {
+  margin: 0;
+  margin-top: 22px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+.menu__items {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.modern-text {
+  font-family: "Modern No. 20";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+  color: #000000;
+}
+.modern-text_nondecor {
+  text-decoration: none;
+}
+.menu__women {
+  margin-bottom: 18px;
+}
+.menu__men {
+  margin-left: 66px;
+  margin-bottom: 18px;
+}
+.menu__children {
+  margin-left: 89px;
+  margin-bottom: 18px;
+}
+.menu__sale {
+  margin-left: 56px;
+  margin-bottom: 18px;
+}
+.menu__new-in {
+  margin-left: 90px;
+  margin-bottom: 18px;
+}
+.menu__collection {
+  margin-left: 68px;
+  margin-bottom: 18px;
+}
+.top__img {
+  margin: 0 auto;
+  width: 1236px;
+  height: 689px;
+  background-image: url("./img/prada_women.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin-bottom: 26px;
+}
+.summer__title_h2 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 39px;
+}
+
+.summer {
+  text-align: center;
+}
+.text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.button {
+  border: 1px #000000 solid;
+  padding: 19px 55px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.summer__text {
+  margin: 0 auto;
+  margin-top: 24px;
+  width: 471px;
+  margin-bottom: 51px;
+}
+/* ARRIVALS */
+.arrivals__title {
+  text-align: center;
+}
+.title_sans {
+  font-family: "Open Sans";
+
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+}
+.arrivals__title {
+  margin-top: 60px;
+  margin-bottom: 74px;
+}
+.arrivals__container {
+  display: flex;
+  max-width: 1196px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.color {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #848484;
+  /* margin-bottom: 4px; */
+}
+.description {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+/* .item__photo {
+  margin-bottom: 16px;
+} */
+/* item переиспользуем ъотя в css ничего не написали насчет негр */
+.arrivals__photo {
+  margin-bottom: 16px;
+}
+.arrivals__color {
+  margin-bottom: 4px;
+}
+/* layers */
+.layers__container {
+  max-width: 1216px;
+  margin: 0 auto;
+  margin-top: 74px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 74px;
+}
+.layers__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+  margin-bottom: 1px;
+}
+.layers__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 56px;
+}
+.layers__wrapper {
+  margin-top: 496px;
+  width: 240px;
+}
+.layers__img {
+  background-image: url("./img/layers_women.png");
+  background-repeat: no-repeat;
+  width: 781px;
+  height: 656px;
+  /* почему-то изображение подгружается только если указать точную ширину и высоту */
+}
+/* arrivals for him */
+.arrivals-him__title {
+  text-align: center;
+  margin-bottom: 73px;
+}
+.arrivals-him__container {
+  margin: 0 auto;
+  width: 1196px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 156px;
+}
+.arrivals-him__photo {
+  margin-bottom: 16px;
+}
+.arrivals-him__color {
+  margin-bottom: 4px;
+}
+/* water */
+
+.water__container {
+  margin: 0 auto;
+  max-width: 1236px;
+  height: 581px;
+  background-image: url("./img/water_women.png");
+  position: relative;
+  margin-bottom: 27px;
+}
+.button_white {
+  display: block;
+  width: 224px;
+  height: 57px;
+  background-color: #ffffff;
+  border: none;
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  padding-top: 17px;
+  padding-bottom: 21px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.water__title {
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 0%;
+  text-align: center;
+  letter-spacing: 0.35em;
+  color: #ffffff;
+  margin-bottom: 42px;
+}
+.water__wrapper {
+  position: absolute;
+  bottom: 41px;
+  right: 40px;
+}
+/* footer */
+.footer {
+  background-color: #ffffff;
+}
+.footer__container {
+  margin: 0 auto;
+  max-width: 1440px;
+  height: 321px;
+}
+.title_bold {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+}
+.footer__li {
+  list-style: none;
+}
+.footer__list {
+  padding: 0;
+}
+.point {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+.footer__company {
+  max-width: 118px;
+  height: 178px;
+}
+.footer__list {
+  display: block;
+}
+.footer__left {
+  max-width: 528px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 44px;
+  margin-left: 120px;
+}
+.point {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+.footer__li {
+  margin-bottom: 12.2px;
+}
+.footer__title {
+  margin-bottom: -12px;
+  /* можно ли так делать? */
+}
+.social {
+  display: block;
+  height: 21px;
+  width: 20px;
+}
+.social__tw {
+  background-image: url("./img/Vector.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.social__i {
+  background-image: url("./img/Vector\(1\).svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.social__f {
+  background-image: url("./img/Vector\(2\).svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.social__youtube {
+  background-image: url("./img/Vector\(3\).svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer__container {
+  position: relative;
+}
+.footer__wrapper {
+  width: 125px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__right {
+  position: absolute;
+
+  top: 44px;
+  right: 342px;
+}
+.footer__title-another {
+  padding-left: 2px;
+  margin-bottom: 14px;
+}
+.footer__store {
+  margin-top: 45px;
+  margin-left: 120px;
+}
+.store {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
